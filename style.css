@@ -1,0 +1,58 @@
+body { 
+  background: #f0f2f5; 
+  font-family: Arial, sans-serif; 
+  display: flex; 
+  justify-content: center; 
+  padding-top: 50px; 
+}
+
+.booking-card { 
+  background: white; 
+  padding: 25px; 
+  border-radius: 15px; 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1); 
+  width: 320px; 
+  text-align: center; 
+}
+
+select { 
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  border-radius: 8px; 
+}
+
+.time-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+}
+
+.time-btn { 
+  background: #007bff; 
+  color: white; 
+  border: none; 
+  padding: 12px; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  font-weight: bold; 
+}
+
+#status-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: #d4edda;
+  border-radius: 10px;
+}
+
+#status-text { color: #155724; font-weight: bold; }
+
+#reset-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
